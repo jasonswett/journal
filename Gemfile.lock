@@ -1,3 +1,19 @@
+GIT
+  remote: git://github.com/jgaskins/perpetuity-postgres.git
+  revision: c167d338edc05da582ff3856e86f7fb7693df0bb
+  ref: c167d338edc05da582ff3856e86f7fb7693df0bb
+  specs:
+    perpetuity-postgres (0.0.1)
+      perpetuity
+      pg
+
+GIT
+  remote: git://github.com/jgaskins/perpetuity.git
+  revision: 82cad54d7226ad17ce25d74c751faf8f2c2c4eb2
+  ref: 82cad54d7226ad17ce25d74c751faf8f2c2c4eb2
+  specs:
+    perpetuity (0.7.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -111,6 +127,8 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
+  perpetuity!
+  perpetuity-postgres!
   pg
   rails (= 4.0.1)
   sass-rails (~> 4.0.0)

@@ -6,6 +6,9 @@ gem 'rails', '4.0.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+gem 'perpetuity',          git: 'git://github.com/jgaskins/perpetuity.git',          ref: '82cad54d7226ad17ce25d74c751faf8f2c2c4eb2'
+gem 'perpetuity-postgres', git: 'git://github.com/jgaskins/perpetuity-postgres.git', ref: 'c167d338edc05da582ff3856e86f7fb7693df0bb'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
