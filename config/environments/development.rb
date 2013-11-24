@@ -27,3 +27,5 @@ Journal::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 end
+
+Perpetuity.data_source :postgres, 'journal_development'
